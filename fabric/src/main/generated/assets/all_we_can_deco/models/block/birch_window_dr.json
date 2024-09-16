@@ -1,7 +1,0 @@
-{
-  "parent": "all_we_can_deco:block/window_dr",
-  "textures": {
-    "all": "all_we_can_deco:block/birch_window",
-    "particle": "minecraft:block/birch_planks"
-  }
-}

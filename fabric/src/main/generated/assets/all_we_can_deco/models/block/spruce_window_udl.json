@@ -1,7 +1,0 @@
-{
-  "parent": "all_we_can_deco:block/window_udl",
-  "textures": {
-    "all": "all_we_can_deco:block/spruce_window",
-    "particle": "minecraft:block/spruce_planks"
-  }
-}

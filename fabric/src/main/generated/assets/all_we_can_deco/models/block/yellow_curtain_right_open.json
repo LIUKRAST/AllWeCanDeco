@@ -1,7 +1,0 @@
-{
-  "parent": "all_we_can_deco:block/curtain_right_open",
-  "textures": {
-    "all": "all_we_can_deco:block/yellow_curtain",
-    "particle": "all_we_can_deco:block/yellow_curtain"
-  }
-}
