@@ -1,0 +1,7 @@
+{
+  "parent": "all_we_can_deco:block/carpet_block",
+  "textures": {
+    "all": "all_we_can_deco:block/pink_flurry_wool",
+    "particle": "all_we_can_deco:block/pink_flurry_wool"
+  }
+}

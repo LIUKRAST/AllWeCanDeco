@@ -1,0 +1,7 @@
+{
+  "parent": "all_we_can_deco:block/window_l",
+  "textures": {
+    "all": "all_we_can_deco:block/cherry_window",
+    "particle": "minecraft:block/cherry_planks"
+  }
+}

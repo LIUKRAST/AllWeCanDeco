@@ -1,0 +1,7 @@
+{
+  "parent": "all_we_can_deco:block/window_udl",
+  "textures": {
+    "all": "all_we_can_deco:block/crimson_window",
+    "particle": "minecraft:block/crimson_planks"
+  }
+}

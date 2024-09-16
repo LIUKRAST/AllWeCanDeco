@@ -1,0 +1,7 @@
+{
+  "parent": "all_we_can_deco:block/curtain_middle",
+  "textures": {
+    "all": "all_we_can_deco:block/black_curtain",
+    "particle": "all_we_can_deco:block/black_curtain"
+  }
+}

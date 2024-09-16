@@ -1,0 +1,7 @@
+{
+  "parent": "all_we_can_deco:block/window",
+  "textures": {
+    "all": "all_we_can_deco:block/dark_oak_window",
+    "particle": "minecraft:block/dark_oak_planks"
+  }
+}

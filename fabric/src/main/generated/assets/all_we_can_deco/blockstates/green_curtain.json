@@ -1,0 +1,132 @@
+{
+  "variants": {
+    "connected_left=false,connected_right=false,facing=east,open=false": {
+      "model": "all_we_can_deco:block/green_curtain",
+      "y": 270
+    },
+    "connected_left=false,connected_right=false,facing=east,open=true": {
+      "model": "all_we_can_deco:block/green_curtain_open",
+      "y": 270
+    },
+    "connected_left=false,connected_right=false,facing=north,open=false": {
+      "model": "all_we_can_deco:block/green_curtain",
+      "y": 180
+    },
+    "connected_left=false,connected_right=false,facing=north,open=true": {
+      "model": "all_we_can_deco:block/green_curtain_open",
+      "y": 180
+    },
+    "connected_left=false,connected_right=false,facing=south,open=false": {
+      "model": "all_we_can_deco:block/green_curtain",
+      "y": 0
+    },
+    "connected_left=false,connected_right=false,facing=south,open=true": {
+      "model": "all_we_can_deco:block/green_curtain_open",
+      "y": 0
+    },
+    "connected_left=false,connected_right=false,facing=west,open=false": {
+      "model": "all_we_can_deco:block/green_curtain",
+      "y": 90
+    },
+    "connected_left=false,connected_right=false,facing=west,open=true": {
+      "model": "all_we_can_deco:block/green_curtain_open",
+      "y": 90
+    },
+    "connected_left=false,connected_right=true,facing=east,open=false": {
+      "model": "all_we_can_deco:block/green_curtain_right",
+      "y": 270
+    },
+    "connected_left=false,connected_right=true,facing=east,open=true": {
+      "model": "all_we_can_deco:block/green_curtain_right_open",
+      "y": 270
+    },
+    "connected_left=false,connected_right=true,facing=north,open=false": {
+      "model": "all_we_can_deco:block/green_curtain_right",
+      "y": 180
+    },
+    "connected_left=false,connected_right=true,facing=north,open=true": {
+      "model": "all_we_can_deco:block/green_curtain_right_open",
+      "y": 180
+    },
+    "connected_left=false,connected_right=true,facing=south,open=false": {
+      "model": "all_we_can_deco:block/green_curtain_right",
+      "y": 0
+    },
+    "connected_left=false,connected_right=true,facing=south,open=true": {
+      "model": "all_we_can_deco:block/green_curtain_right_open",
+      "y": 0
+    },
+    "connected_left=false,connected_right=true,facing=west,open=false": {
+      "model": "all_we_can_deco:block/green_curtain_right",
+      "y": 90
+    },
+    "connected_left=false,connected_right=true,facing=west,open=true": {
+      "model": "all_we_can_deco:block/green_curtain_right_open",
+      "y": 90
+    },
+    "connected_left=true,connected_right=false,facing=east,open=false": {
+      "model": "all_we_can_deco:block/green_curtain_left",
+      "y": 270
+    },
+    "connected_left=true,connected_right=false,facing=east,open=true": {
+      "model": "all_we_can_deco:block/green_curtain_left_open",
+      "y": 270
+    },
+    "connected_left=true,connected_right=false,facing=north,open=false": {
+      "model": "all_we_can_deco:block/green_curtain_left",
+      "y": 180
+    },
+    "connected_left=true,connected_right=false,facing=north,open=true": {
+      "model": "all_we_can_deco:block/green_curtain_left_open",
+      "y": 180
+    },
+    "connected_left=true,connected_right=false,facing=south,open=false": {
+      "model": "all_we_can_deco:block/green_curtain_left",
+      "y": 0
+    },
+    "connected_left=true,connected_right=false,facing=south,open=true": {
+      "model": "all_we_can_deco:block/green_curtain_left_open",
+      "y": 0
+    },
+    "connected_left=true,connected_right=false,facing=west,open=false": {
+      "model": "all_we_can_deco:block/green_curtain_left",
+      "y": 90
+    },
+    "connected_left=true,connected_right=false,facing=west,open=true": {
+      "model": "all_we_can_deco:block/green_curtain_left_open",
+      "y": 90
+    },
+    "connected_left=true,connected_right=true,facing=east,open=false": {
+      "model": "all_we_can_deco:block/green_curtain_middle",
+      "y": 270
+    },
+    "connected_left=true,connected_right=true,facing=east,open=true": {
+      "model": "all_we_can_deco:block/green_curtain_middle_open",
+      "y": 270
+    },
+    "connected_left=true,connected_right=true,facing=north,open=false": {
+      "model": "all_we_can_deco:block/green_curtain_middle",
+      "y": 180
+    },
+    "connected_left=true,connected_right=true,facing=north,open=true": {
+      "model": "all_we_can_deco:block/green_curtain_middle_open",
+      "y": 180
+    },
+    "connected_left=true,connected_right=true,facing=south,open=false": {
+      "model": "all_we_can_deco:block/green_curtain_middle",
+      "y": 0
+    },
+    "connected_left=true,connected_right=true,facing=south,open=true": {
+      "model": "all_we_can_deco:block/green_curtain_middle_open",
+      "y": 0
+    },
+    "connected_left=true,connected_right=true,facing=west,open=false": {
+      "model": "all_we_can_deco:block/green_curtain_middle",
+      "y": 90
+    },
+    "connected_left=true,connected_right=true,facing=west,open=true": {
+      "model": "all_we_can_deco:block/green_curtain_middle_open",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "all_we_can_deco:block/window_udlr",
+  "textures": {
+    "all": "all_we_can_deco:block/bamboo_window",
+    "particle": "minecraft:block/bamboo_planks"
+  }
+}
