@@ -108,6 +108,8 @@ processResources {
     inputs.properties(expandProps)
 }
 
+//sourceSets.main.resources { srcDir 'fabric/src/generated/resources' }
+
 publishing {
     publications {
         register('mavenJava', MavenPublication) {

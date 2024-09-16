@@ -8,15 +8,21 @@
         "${mod_author}"
     ],
     "contact": {
-        "homepage": "https://fabricmc.net/",
-        "sources": "https://github.com/FabricMC/fabric-example-mod"
+        "homepage": "https://frozenblock.net/",
+        "sources": "https://github.com/LIUKRAST/AllWeCanDeco"
     },
     "license": "${license}",
     "icon": "${mod_id}.png",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.example.examplemod.ExampleMod"
+            "net.frozenblock.allwecandeco.AllWeCanDeco"
+        ],
+        "client": [
+            "net.frozenblock.allwecandeco.AllWeCanDecoClient"
+        ],
+        "fabric-datagen": [
+            "net.frozenblock.allwecandeco.AllWeCanDeco"
         ]
     },
     "mixins": [

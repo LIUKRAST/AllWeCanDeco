@@ -2,14 +2,45 @@ plugins {
     id 'multiloader-loader'
     id 'fabric-loom'
 }
+
+repositories {
+    maven {
+        url "https://cursemaven.com"
+    }
+    maven {
+        url = "https://api.modrinth.com/maven"
+    }
+    maven {
+        name = "MrCrayfish (GitHub)"
+        url = "https://maven.pkg.github.com/MrCrayfish/Maven"
+        credentials {
+            username = project.findProperty("gpr.user") ?: System.getenv("GPR_USER")
+            password = project.findProperty("gpr.key") ?: System.getenv("GPR_KEY")
+        }
+        content {
+            includeGroup "com.mrcrayfish"
+        }
+    }
+    maven { url "https://maven.terraformersmc.com/releases/" }
+}
+
 dependencies {
     minecraft "com.mojang:minecraft:${minecraft_version}"
-    mappings loom.layered {
-        officialMojangMappings()
-        parchment("org.parchmentmc.data:parchment-${parchment_minecraft}:${parchment_version}@zip")
-    }
+    mappings loom.officialMojangMappings()
     modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
+    modImplementation "curse.maven:jei-238222:5718397"
+    modImplementation "curse.maven:refurbished-furniture-897116:5705549"
+    modImplementation "com.mrcrayfish:framework-fabric:${minecraft_version}-${framework_version}"
+    modApi "com.terraformersmc:modmenu:11.0.2"
+    /*modImplementation "maven.modrinth:extshape_blockus:${blockus_api_version}"
+    modImplementation "maven.modrinth:extshape:${blockus_api_version}"
+    modImplementation "maven.modrinth:blockus:${blockus_version}"
+    modImplementation "maven.modrinth:brrp:${brrp_version}"*/
+}
+
+fabricApi {
+    configureDataGeneration()
 }
 
 loom {
